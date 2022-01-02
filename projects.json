@@ -1,5 +1,78 @@
 {
     "projects":[
+        {
+            "id":0,
+            "Title":"Tasks for the gods",
+            "About":"An advanced react.js Task-tracker web app",
+            "Purpose":"To brush up react.js Skills",
+            "Technologies":{
+                "Frontend":["HTML","CSS","React.js"],
+                "Backend":[
+                    {"mock":true},
+                    "JSON-Server"
+                ],
+                "Others":["React-router","animate.css","bootstrap"]
+            }
+        },
+
+        {
+            "id":1,
+            "Title":"Scrutinize",
+            "About":"A Software for managing(CRUD operations) Tasks and Surveys",
+            "Purpose":"To Enable its users manage and get overview on online tests and survey",
+            "Technologies":{
+                "Frontend":["HTML","CSS","React.js"],
+                "Backend":[
+                    {"mock":false},
+                    "node.js(Express.js)",
+                    "Mongodb(Atlas)"
+                ],
+                "Others":["React-router","Redux","Ionic","Capacitor","animate.css","bootstrap"]
+            }
+        },
+
+        {
+            "id":2,
+            "Title":"Orb Events",
+            "About":"Event Management Software",
+            "Purpose":"To Enable its users manage and organise events.Also Purchase tickets",
+            "Technologies":{
+                "Frontend":["HTML","CSS","Vue.js"],
+                "Backend":[
+                    {"mock":false},
+                    "node.js(Express.js)",
+                    "Mongodb(Atlas)"
+                ],
+                "Others":["animate.css","bootstrap"]
+            }
+        },
+
+        {
+            "id":3,
+            "Title":"Prime",
+            "About":"The 3D portfolio site",
+            "Purpose":"To Blow people's mind",
+            "Technologies":{
+                "Frontend":["HTML","CSS","javascript"],
+                "Backend":[],
+                "Others":["Three.js","animate.css","bootstrap"]
+            }
+        },
+
+        {
+            "id":4,
+            "Title":"Codename:The Power Project",
+            "About":"",
+            "Purpose":"",
+            "Technologies":{
+                "Frontend":["HTML","CSS","React.js"],
+                "Backend":[
+                    {"mock":false},
+                    "Golang"
+                ],
+                "Others":[]
+            }
+        }
 
     ]
 }
